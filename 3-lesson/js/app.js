@@ -5,8 +5,6 @@ let obj = {
 }
 console.log(obj);
 
-
-
 let student = 16;
 
 if(student < 16){
@@ -16,4 +14,21 @@ if(student < 16){
 }
 if(student === 16){
     console.log("Student Password olgan")
+}
+
+
+
+// sevetafor
+
+let trafficLight = prompt('Rang kiriting');
+if( trafficLight === 'red'){
+    console.log('yellow')
+}else if ( trafficLight === 'yellow'){
+    console.log('green')
+}
+else if ( trafficLight === 'green'){
+    console.log('red')
+}
+else{
+    alert('Unday rang mavjud emas')
 }
