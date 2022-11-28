@@ -9,7 +9,7 @@ let student = 16;
 
 if(student < 16){
     console.log("Maktab oquvchisi")
-}else{
+}else(student > 16){
     console.log("Maktabni tugatgan")
 }
 if(student === 16){
