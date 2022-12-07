@@ -1,13 +1,15 @@
-let numberOfFilms = +prompt('Qancha film ko\'rgansiz?');
+let numberOfFilms = +prompt('how many movies have you seen?')
 let personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
+	count: numberOfFilms,
+	movies: {},
+	actors: {},
+	genres: [],
+	privat: false,
 }
-let lastFilms = prompt('Oxirgi ko\'rgan filimlaringizdan biri?');
-let priceFilms = prompt('Uni qancha baholagan bo\'lardingiz?');
-if(){
 
-}
+let askLastFilms = prompt('One of the last movies you saw?')
+askAwards = +prompt('How much would you rate it?')
+
+personalMovieDB.movies[askLastFilms] = askAwards
+
+console.log(personalMovieDB)
