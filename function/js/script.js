@@ -1,10 +1,9 @@
 let Infos = {}
 for (let i = 0; i < 4; i++) {
-	let firstName = prompt('Ismingizni kiriting')
-	let lastName = prompt('Familiyangizni kiriting')
-	let age = prompt('Yoshingizni kiriting')
-
-	function setInfo(firsName, lastname, age) {
+	let firstName = prompt('Ismingizni kiriting');
+	let lastName = prompt('Familiyangizni kiriting');
+	let age = prompt('Yoshingizni kiriting');
+	function setInfo(firsName, lastname, age){
 		return {
 			firsName,lastName,age
 		}
