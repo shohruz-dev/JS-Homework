@@ -15,10 +15,10 @@
 
 // 1 - function pow(x, n)
 //pow(2, 3) 8
-function degree(number){
-  return number ** 3;
+function degree(a,b){
+  return a ** b;
 }
-console.log(degree(2));
+console.log(degree(2,3));
 
 //2 - function floor(n)
 //floor(2.7324234) 2
@@ -28,15 +28,15 @@ console.log(degree(2));
 //5 - function sqrt(x, n)
 //sqrt(16, 2)  4
 //sqrt(8, 3)  2
-function degree(number){
-  return number ** (1/2);
+function degree(a,b){
+  return a ** (1/b);
 }
-console.log(degree(16));
+console.log(degree(16,2));
 
 //sqrt(8, 3)  2
-function degree(number){
-  return number ** (1/3);
+function degree(a,b){
+  return a ** (1/b);
 }
-console.log(degree(8));
+console.log(degree(8,3));
 
 
