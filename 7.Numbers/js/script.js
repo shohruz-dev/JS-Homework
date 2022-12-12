@@ -41,7 +41,7 @@ console.log(degree(16,2));
 //sqrt(8, 3)  2
 function degree(a,b){
   return a ** (1/b);
-}
+} 
 console.log(degree(8,3));
 
 
