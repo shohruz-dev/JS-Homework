@@ -1,5 +1,5 @@
 let Infos = {}
-for (let i = 0; i < 4; i++) {
+for (let i = 0; i < 2; i++) {
 	let firstName = prompt('Ismingizni kiriting');
 	let lastName = prompt('Familiyangizni kiriting');
 	let age = prompt('Yoshingizni kiriting');
