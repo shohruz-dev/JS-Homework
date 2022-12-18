@@ -21,4 +21,4 @@ function myFunction( str, num, num1, ) {
       }
       console.log(result1);
     }
-    myFunction(mySubstr, 0, 5)
+    myFunction(mySubstr, 0, 5);
