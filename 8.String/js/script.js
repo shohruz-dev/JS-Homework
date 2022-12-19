@@ -9,7 +9,7 @@ function substringMethod(str, start, end = str.length) {
 	}
 	return result
 }
-console.log(substringMethod(myVariable, 5, 0))
+console.log(substringMethod(myVariable, 5, 0));
 
 // substr 
 
