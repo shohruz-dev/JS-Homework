@@ -8,7 +8,7 @@ function popMathod (array){
   } 
 console.log(popMathod(arrPop));
 
-//push
+//push 1
 let arrPush = [1, 2, 3, 4,5,7,8,9];
 function pushMathod (array, value){
   arrPush = [arrPush,10]
@@ -16,3 +16,9 @@ function pushMathod (array, value){
 }
 
 console.log(pushMathod(arrPush));
+
+
+//push 2
+let arr = [1,2,3];
+arr[arr.length] = 10;
+console.log(arr);
