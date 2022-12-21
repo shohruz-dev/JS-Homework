@@ -14,3 +14,4 @@ function pushMathod (array){
   return arr
 }
 console.log(pushMathod(arr));
+
