@@ -12,6 +12,15 @@ console.log(hair);
 console.log(stayle);
 
 
+let shohruz = {
+    color:"blue",
+    height:"1.8",
+}
+let {height,color} = shohruz;
+console.log(height);
+console.log(color);
+
+
 // ..........Lesson..........//
 let obj = {
 	name: 'Alex',
@@ -111,3 +120,29 @@ let user = { name: 'Alex', pets: { name1: 'Tuzik', name2: 'Bobik' } }
 let { name1, name2 } = user.pets
 
 console.log(name2)
+
+
+
+//Homework
+//....desturibatsiya
+let uzb = {
+	name: "Uzbekistan",
+	capital: "Tashkent",
+	region: "Asia",
+	currencies: [
+	  {
+		code: "UZS",
+		title: "Uzbekistani so'm",
+		symbol: "so'm"
+	  }
+	],
+	independent: false
+  }
+  
+  let {name,capital,region,currencies:[{code,title,symbol}], independent} = uzb
+  console.log(code);
+
+
+
+
+
